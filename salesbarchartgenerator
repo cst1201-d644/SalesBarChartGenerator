@@ -1,0 +1,71 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package cst1201;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author class
+ */
+public class SalesBarChartGenerator {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {     
+        Scanner scanner = new Scanner(System.in);
+        
+        // ask the user for today's sales for the store 1.
+        int salesForStore1;
+        System.out.println("Enter sales for store 1: ");
+        salesForStore1 = scanner.nextInt();
+        
+        //display the bar chart for store 1.
+        
+        // ask the user for today's sales for the store 2.
+        int salesForStore2;
+        System.out.println("Enter sales for store 2: ");
+        salesForStore2 = scanner.nextInt();
+        
+        //display the bar chart for store 2.
+        
+        // ask the user for today's sales for the store 3.
+        int salesForStore3;
+        System.out.println("Enter sales for store 3: ");
+        salesForStore3 = scanner.nextInt();
+        
+        //display the bar chart for store 3.
+        
+        // ask the user for today's sales for the store 4.
+        int salesForStore4;
+        System.out.println("Enter sales for store 4: ");
+        salesForStore4 = scanner.nextInt();
+        
+        
+        //display the bar chart for store 4.
+        
+        // ask the user for today's sales for the store 5.
+        int salesForStore5;
+        System.out.println("Enter sales for store 5: ");
+        salesForStore5 = scanner.nextInt();
+        
+        //display the bar chart for store 5.
+        
+        
+        int numberofAstericks = salesForStore1 / 100;
+        System.out.println("I should print " + numberofAstericks + "*s.");
+        
+        for (int i = 0; i < numberofAstericks; i++){
+            System.out.print("*");
+        }
+        
+        System.out.println();
+        
+    }
+    
+}
