@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * ALEKSANDRA Madalinska hw
+ * ALEKSANDRA Madalinska hww
  */
 public class SalesBar {
 
