@@ -8,7 +8,7 @@ package salesbarchartgenerator;
 import java.util.Scanner;
 /**
  *
- * @author class
+ * @author JianLang Lin
  */
 public class SalesBarChartGenerator {
 
