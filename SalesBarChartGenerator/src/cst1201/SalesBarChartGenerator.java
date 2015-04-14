@@ -1,9 +1,8 @@
-
-package BarChart;
+package cst1201;
 
 import java.util.Scanner;
 
-public class BarChart {
+public class SalesBarChartGenerator {
 
     public static void main(String[] args) {
         int sale1;
@@ -12,7 +11,7 @@ public class BarChart {
         int sale4;
         int sale5;
 
-        Scanner scanner = new Scanner(System.in);
+        java.util.Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter todays sales for store 1 :");
         int salesForStore1 = scanner.nextInt();
@@ -50,6 +49,7 @@ public class BarChart {
             System.out.print("*");
         }
         System.out.println("");
-        
+
     }
-    
+
+}
